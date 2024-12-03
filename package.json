@@ -1,0 +1,27 @@
+{
+	"name": "get-start-webpack",
+	"version": "1.0.0",
+	"description": "Get start webpack con scss",
+	"main": ".",
+	"scripts": {
+		"start": "webpack serve --hot --mode development",
+		"install-dep": "npm i --no-bin-linksnpm --save-dev html-webpack-plugin",
+		"build": "webpack",
+		"build-prod": "webpack --mode=production",
+		"clean": "rd /s /q dist"
+	},
+	"author": "kuzmichit",
+	"license": "ISC",
+	"devDependencies": {
+		"css-loader": "^7.1.2",
+		"html-loader": "^5.1.0",
+		"html-webpack-plugin": "^5.6.3",
+		"sass": "^1.81.0",
+		"sass-loader": "^16.0.3",
+		"style-loader": "^4.0.0",
+		"webpack": "^5.96.1",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^5.1.0"
+	},
+	"keywords": []
+}
