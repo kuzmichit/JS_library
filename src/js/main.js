@@ -1,3 +1,3 @@
 import './lib/lib';
 
-$('.active').hide()
+$('.active').on('click', () => console.log(666))

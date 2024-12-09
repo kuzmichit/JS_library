@@ -5,6 +5,7 @@ $.prototype.show = function() {
         if (!this[i].style) {
             continue;
         }
+        debugger;
         this[i].style.display = '';
     }
 
